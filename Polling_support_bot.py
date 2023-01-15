@@ -22,7 +22,7 @@ async def send_no_help(message: types.Message):
 # from support to client
 
 #bot will only send message if it starts with "Client ID: #client{id}"
-All other messages in chat would not be sent
+#All other messages in chat would not be sent
 
 @dp.message_handler(chat_type=[types.ChatType.GROUP])
 async def support_answer(message: types.Message):
